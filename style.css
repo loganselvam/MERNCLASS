@@ -1,0 +1,27 @@
+body{
+    background-color: lightgray;
+}
+.smallbox{
+    background-color: aliceblue;
+    /* width: 300px; */
+    text-align: center;
+    /* height: 350px; */
+    padding: 20px 10px;
+    margin: 20px 0px;
+}
+i{
+    /* margin-top: 50px; */
+    color: skyblue;
+}
+.cont{
+    margin: 20px 0px;
+
+}
+a{
+    
+    border-bottom: 2px solid skyblue;
+    /* text-decoration: dashed; */
+}
+.box{
+    padding: 70px 0px;
+}
