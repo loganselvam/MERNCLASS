@@ -40,7 +40,7 @@ document.body.append(label1,br1,input1,br2,label2,br3,input2,br4,label3,br5,inpu
 // creating the table using the  dom
 
 let table=document.createElement('table')
-table.setAttribute('class','tabel')
+table.setAttribute('class','table')
 document.body.append(table)
 //creating a table head for the table in the dom and insert in the  table
 let tablehead=document.createElement('thead')
