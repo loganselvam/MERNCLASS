@@ -33,5 +33,48 @@ var br4 = createbr('br')
 var br5 = createbr('br')
 var br6 = createbr('br')
 var br7 = createbr('br')
+var br8 = createbr('br')
 
-document.body.append(label1,br1,input1,br2,label2,br3,input2,br4,label3,br5,input3,br6,label4,br7,input4)
+document.body.append(label1,br1,input1,br2,label2,br3,input2,br4,label3,br5,input3,br6,label4,br7,input4,br8)
+
+// creating the table using the  dom
+
+let table=document.createElement('tabel')
+table.setAttribute('class','tabel')
+document.body.append(table)
+
+let tablehead=document.createElement('thead')
+table.setAttribute('class','thead-dark')
+table.append(tablehead)
+
+let tablerow=document.createElement('tr')
+tablehead.append(tablerow)
+
+let th1 = document.createElement('th')
+th1.setAttribute('scope','first')
+th1.innerText='Fisrt'
+let th2 = document.createElement('th')
+th2.setAttribute('scope','first')
+th2.innerText='Middle'
+let th3 = document.createElement('th')
+th3.setAttribute('scope','first')
+th3.innerText='Last'
+
+tablerow.append(th1,th2,th3)
+
+let tabelbody = document.createElement('tbody')
+table.append(tabelbody)
+
+let tr = document.createElement('tr')
+tabelbody.append(tr)
+
+let td1 = document.createElement('td')
+td1.innerText='Mark'
+
+let td2 = document.createElement('td')
+td2.innerText='otto'
+
+let td3 = document.createElement('td')
+td3.innerText='Mogo'
+
+tr.append(td1,td2,td3)
