@@ -44,7 +44,7 @@ table.setAttribute('class','table')
 document.body.append(table)
 //creating a table head for the table in the dom and insert in the  table
 let tablehead=document.createElement('thead')
-table.setAttribute('class','thead-dark')
+tablehead.setAttribute('class','thead-dark')
 table.append(tablehead)
 //creating a table row for the table in the dom and insert in the  table head
 
